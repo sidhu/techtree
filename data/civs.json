@@ -1,0 +1,2534 @@
+{
+    "aztecs" : {
+        "title": "Infantry and Monk civilization",
+        "advantages": ["Villagers carry +3", "Military units created 11% faster", "+5 Monk hit points for each Monastery technology",  "Start with +50 gold"],
+        "unique_units": ["Jaguar Warrior (infantry)"],
+        "unique_techs": ["Atlatl (Skirmishers +1 attack, +1 range)", "Garland Wars (+4 infantry attack)"],
+        "team_bonus": "Relics generate +33% gold",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h42", "h31"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21", "b31"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s42", "s52"] },
+                "y" : { "units" : ["y14"], "tech" : ["y1", "y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22", "b32"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43"], "tech" : ["d22", "d31"] },
+                "m" : { "tech" : ["m22"] },
+                "s" : { "tech" : ["s13", "s23", "s43" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u81", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b33"] },
+                "a" : { "units" : ["a13"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k23"] },
+                "v" : { "units" : ["v2"], "tech" : ["v2", "v3", "v4"] }
+            }
+        }
+    },
+    "bengalis" : {
+        "title": "Elephant and Naval civilization",
+        "advantages": ["Elephant units receive 25% less bonus damage and are more resistant to conversion", "Town Centers spawn 2 Villagers when the next Age is reached", "Ships regenerate 15 HP per minute"],
+        "unique_units": ["Ratha (cavalry archer/cavalry)"],
+        "unique_techs": ["Paiks (Rathas and elephant units attack 20% faster)", "Mahayana (Villagers take 10% less population space)"],
+        "team_bonus": "Trade units yield 10% food in addition to gold",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"]},
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a51"]},
+                "l" : { "units" : ["l12", "l41"], "tech" : ["l21"] },
+                "k" : { "units" : ["k51", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71", "d72"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a52"], "tech" : ["a2"] },
+                "l" : { "units" : ["l42"] },
+                "k" : { "units" : ["k52", "k22", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v3", "v4"] }
+            }
+        }
+    },
+    "berbers" : {
+        "title": "Cavalry and Naval civilization",
+        "advantages": ["Villagers move 10% faster", "Stable units cost -15% in Castle, -20% in Imperial Age", "Ships move 10% faster"],
+        "unique_units": ["Camel Archer (cavalry archer)", "Genitour (mounted skirmisher)"],
+        "unique_techs": ["Kasbah (team castles work 25% faster)", "Maghrebi Camels (Camel units regenerate)"],
+        "team_bonus": "Genitour available in the Archery Range starting in the Castle Age",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y4", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41", "a61"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63", "d71", "d72"], "tech" : ["d22"] },
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y10"] },
+                "u" : { "tech" : ["u81", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15"] },
+                "a" : { "units" : ["a31", "a42", "a62"] },
+                "l" : { "units" : ["l13", "l22", "l33"] },
+                "k" : { "units" : ["k12", "k22", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v3", "v4"] }
+            }
+        }
+    },
+    "bohemians" : {
+        "title": "Gunpowder and Monk civilization",
+        "advantages": ["Blacksmiths and Universities cost -100 wood", "Chemistry and Hand Cannoneer available in Castle Age", "Spearman-line deals +25% bonus damage", "Fervor and Sanctity affect Villagers", "Mining Camp technologies free"],
+        "unique_units": ["Hussite Wagon (siege weapon)", "Houfnice (bombard cannon)"],
+        "unique_techs": ["Wagenburg Tactics (Gunpowder units move 15% faster)", "Hussite Reforms (Monks and Monastery technologies have their gold cost replaced by food)"],
+        "team_bonus": "Markets work 80% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u61", "u71", "u81"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a31"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "d" : { "units" : ["d63", "d71", "d72"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u82", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13"] },
+                "l" : { "units" : ["l22"] },
+                "k" : { "units" : ["k12", "k22", "k32", "k41", "k42"] },
+                "v" : { "units" : ["v2"], "tech" : ["v2", "v3", "v4"] }
+            }
+        }
+    },
+    "britons" : {
+        "title": "Foot Archer civilization",
+        "advantages": ["Town Centers cost -50% wood starting in the Castle Age", "Foot archers (except skirmishers) +1 range in Castle and Imperial Age (+2 total)", "Shepherds work 25% faster"],
+        "unique_units": ["Longbowman (archer)"],
+        "unique_techs": ["Yeomen (+1 foot archer range, +2 tower attack)", "Warwolf (Trebuchets do blast damage)"],
+        "team_bonus": "Archery Ranges work 20% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63", "d71", "d72"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a42"] },
+                "l" : { "units" : ["l22"] },
+                "k" : { "units" : ["k12", "k22", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "bulgarians" : {
+        "title": "Infantry and Cavalry civilization",
+        "advantages": ["Militia-line upgrades free", "Town Centers cost -50% stone", "Blacksmith and Siege Workshop technologies cost -50% food", "Can build Krepost"],
+        "unique_units": ["Konnik (cavalry)"],
+        "unique_techs": ["Stirrups (Cavalry attack 33% faster)", "Bagains (Militia-line gains +5 armor)"],
+        "team_bonus": "Blacksmiths work 80% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "t", "v", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y3", "y4", "y6"]},
+                "u" : { "tech" : ["u11", "u31", "u41", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "t" : { "units" : ["zbulgarians"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d63", "d71"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43" ] },
+                "y" : { "tech" : ["y8", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u91" ] },
+                "b" : { "units" : ["b14", "b23"] },
+                "a" : { "units" : ["a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k23", "k32"] },
+                "t" : { "units" : ["elite_zbulgarians"] },
+                "v" : { "units" : ["v2"], "tech" : ["v3", "v4"] }
+            }
+        }
+    },
+    "burgundians" : {
+        "title": "Cavalry civilization",
+        "advantages": ["Economic upgrades available one age earlier and cost -50% food", "Stable technologies cost -50%", "Cavalier upgrade available in Castle Age", "Gunpowder units +25% attack"],
+        "unique_units": ["Coustillier (cavalry)", "Flemish Militia (infantry)"],
+        "unique_techs": ["Burgundian Vineyards (Farmers slowly generate gold in addition to food)", "Flemish Revolution (Upgrades all existing Villagers to Flemish Militia; create Flemish Militia at Town Centers)"],
+        "team_bonus": "Relics generate both Gold & Food",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "h" : { "units" : ["uh1"] },
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71", "d72"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43" ] },
+                "y" : { "tech" : ["y7", "y8", "y9"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a31"] },
+                "l" : { "units" : ["l13", "l22", "l23"] },
+                "k" : { "units" : ["k12", "k22", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "burmese" : {
+        "title": "Monk and Elephant civilization",
+        "advantages": ["Lumber Camp technologies free", "Infantry +1 attack per age (starting in the Feudal Age)", "Battle Elephants +1/+1P armor", "Monastery technologies cost -50%"],
+        "unique_units": ["Arambai (ranged cavalry)"],
+        "unique_techs": ["Howdah (Battle Elephants +1/+1P armor)", "Manipur Cavalry (Cavalry +5 attack vs. archers)"],
+        "team_bonus": "Relics visible on the map at the start of the game",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l12", "l21", "l41"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d63", "d71", "d72"], "tech" : ["d22"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43"] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u91" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a31", "a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22", "l42"] },
+                "k" : { "units" : ["k12", "k22", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v3", "v4"] }
+            }
+        }
+    },
+    "byzantines" : {
+        "title": "Defensive civilization",
+        "advantages": ["Buildings +10% HP Dark, +20% Feudal, +30% Castle, +40% Imperial Age", "Camel Riders, Skirmishers, Pikemen, Halberdiers cost -25%", "Fire ships attack 25% faster", "Advance to Imperial Age costs -33%", "Town Watch, Town Patrol free"],
+        "unique_units": ["Cataphract (cavalry)"],
+        "unique_techs": ["Greek Fire (Fire Ships +1 range)", "Logistica (Cataphracts cause trample damage)"],
+        "team_bonus": "Monks +100% heal speed",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u21", "u31", "u41", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63", "d71", "d72"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u42", "u81", "u82", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a31", "a42"] },
+                "l" : { "units" : ["l13", "l22", "l23", "l33"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v3", "v4"] }
+            }
+        }
+    },
+    "celts" : {
+        "title": "Infantry and Siege civilization",
+        "advantages": ["Infantry move 15% faster (starting in the Feudal Age)", "Lumberjacks work 15% faster", "Siege weapons fire 25% faster", "Can steal sheep, and sheep within one Celt unit's LoS cannot be stolen"],
+        "unique_units": ["Woad Raider (infantry)"],
+        "unique_techs": ["Stronghold (Castles and towers fire 25% faster)", "Furor Celtica (Siege Workshop units +40% HP)"],
+        "team_bonus": "Siege Workshops work 20% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "d" : { "units" : ["d53", "d63", "d71"], "tech" : ["d22", "d31"] },
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23" ] },
+                "y" : { "tech" : ["y7"] },
+                "u" : { "tech" : ["u42", "u81", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a42"] },
+                "l" : { "units" : ["l13", "l22", "l23"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k23", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "chinese" : {
+        "title": "Archer civilization",
+        "advantages": ["Start with +3 villagers, -50 wood, -200 food", "Technologies cost -10% Feudal, -15% Castle, -20% Imperial Age", "Town Centers support 10 population and +5 LOS", "Demolition ships +50% hit points"],
+        "unique_units": ["Chu Ko Nu (archer)"],
+        "unique_techs": ["Great Wall (Walls and towers +30% HP)", "Rocketry (Chu Ko Nu +2, scorpions +4 attack)"],
+        "team_bonus": "Farms +10% food",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "d" : { "units" : ["d53", "d63", "d71"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a42"] },
+                "l" : { "units" : ["l22", "l33"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v2", "v3", "v4"] }
+            }
+        }
+    },
+    "cumans" : {
+        "title": "Cavalry civilization",
+        "advantages": ["Additional Town Center can be built in the Feudal Age", "Siege Workshop and Battering Ram available in the Feudal Age; Capped Ram upgrade available in Castle Age", "Archery Ranges and Stables cost -75 wood", "Cavalry 5% faster each age (starting in Feudal Age)"],
+        "unique_units": ["Kipchak (cavalry archer)"],
+        "unique_techs": ["Steppe Husbandry (Light Cavalry, Steppe Lancers and Cavalry Archers trained 100% faster)", "Cuman Mercenaries (team members can create 5 free Elite Kipchaks per Castle)"],
+        "team_bonus": "Palisade Walls +33% HP",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "h", "m", "s", "a", "l", "k", "t1" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] },
+                "k" : { "units" : ["k11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "v"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u31", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32", "l51"] },
+                "k" : { "units" : ["k12", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s53" ] },
+                "y" : { "tech" : ["y7"] },
+                "u" : { "tech" : ["u81"] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22", "l23", "l52"] },
+                "k" : { "units" : ["k13", "k22", "k23"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "dravidians" : {
+        "title": "Infantry and Naval civilization",
+        "advantages": ["Receive +200 wood when advancing to the next age", "Fishermen and Fishing Ships carry +15", "Barracks technologies cost -50%", "Skirmishers and Elephant Archers attack 25% faster"],
+        "unique_units": ["Urumi Swordsman (infantry)", "Thirisadai (warship)"],
+        "unique_techs": ["Medical Corps (Elephant units regenerate 20 HP per minute)", "Wootz Steel (Infantry and cavalry attacks ignore armor)"],
+        "team_bonus": "Docks provide +5 population room",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y3", "y5"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a51"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l41"] },
+                "k" : { "units" : ["k51", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "d" : { "units" : ["d43", "d53", "d63", "d71", "d72", "ud41"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y9", "y10"] },
+                "u" : { "tech" : ["u42", "u81", "u82", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a31", "a52"], "tech" : ["a2"] },
+                "k" : { "units" : ["k52", "k22", "k23", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v3", "v4"] }
+            }
+        }
+    },
+    "ethiopians" : {
+        "title": "Archer and Siege civilization",
+        "advantages": ["Archers fire 18% faster", "Receive +100 gold, +100 food when advancing to the next age", "Pikeman upgrade free"],
+        "unique_units": ["Shotel Warrior (infantry)"],
+        "unique_techs": ["Royal Heirs (Shotel Warriors train nearly instantly)", "Torsion Engines (increases blast radius of Siege Workshop units)"],
+        "team_bonus": "Towers and Outposts +3 line of sight",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "d" : { "units" : ["d63", "d71"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u91" ] },
+                "b" : { "units" : ["b14", "b23"] },
+                "a" : { "units" : ["a13", "a42"] },
+                "l" : { "units" : ["l13", "l22", "l33"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k23", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v2", "v3", "v4"] }
+            }
+        }
+    },
+    "franks" : {
+        "title": "Cavalry civilization",
+        "advantages": ["Castles cost -25%", "Cavalry +20% hit points starting in Feudal Age", "Mill technologies free", "Foragers work 15% faster"],
+        "unique_units": ["Throwing Axeman (infantry)"],
+        "unique_techs": ["Bearded Axe (+1 Throwing Axemen range)", "Chivalry (Stables work 40% faster)"],
+        "team_bonus": "Knights +2 line of sight",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63", "d71"], "tech" : ["d22"] },
+                "m" : { "tech" : ["m22"] },
+                "s" : { "tech" : ["s13", "s23", "s33" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u81", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a31", "a42"] },
+                "l" : { "units" : ["l22", "l23"] },
+                "k" : { "units" : ["k12", "k22", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v3", "v4"] }
+            }
+        }
+    },
+    "goths" : {
+        "title": "Infantry civilization",
+        "advantages": ["Infantry cost -20% in Dark, -25% in Feudal, -30% in Castle, -35% in Imperial Age", "Infantry +1 attack vs. buildings per age (starting from Feudal Age)", "Villagers +5 attack vs. wild boar; hunters carry +15 meat", "Loom can be researched instantly", "+10 population in Imperial Age"],
+        "unique_units": ["Huskarl (infantry)"],
+        "unique_techs": ["Anarchy (create Huskarls at Barracks)", "Perfusion (Barracks work 100% faster)"],
+        "team_bonus": "Barracks work 20% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u31", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63", "d71"], "tech" : ["d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a31", "a42"] },
+                "l" : { "units" : ["l13", "l22"] },
+                "k" : { "units" : ["k12", "k22", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v2", "v3", "v4"] }
+            }
+        }
+    },
+    "gurjaras" : {
+        "title": "Cavalry and Camel civilization",
+        "advantages": ["Start with 2 Forage Bushes", "Can garrison Mills with livestock to produce food", "Mounted units deal +50% bonus damage", "Can garrison Docks with Fishing Ships"],
+        "unique_units": ["Chakram Thrower (infantry)", "Shrivamsha Rider (cavalry)", "Camel Scout (camel rider)"],
+        "unique_techs": ["Kshatriyas (Military units cost -25% food)", "Frontier Guards (Camel Riders and Elephant Archers +4 melee armor)"],
+        "team_bonus": "Camel and elephant units created 25% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11", "l31"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b3"] },
+                "a" : { "units" : ["a12", "a22", "a51"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "ul21", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k51", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d53", "d63", "d71"], "tech" : ["d31"] },
+                "m" : { "tech" : ["m22"] },
+                "s" : { "tech" : ["s23", "s33", "s43"] },
+                "y" : { "tech" : ["y8", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81"] },
+                "b" : { "units" : ["b14"] },
+                "a" : { "units" : ["a31", "a52"] },
+                "l" : { "units" : ["l13", "ul22", "l33"] },
+                "k" : { "units" : ["k52", "k22", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "hindustanis" : {
+        "title": "Camel and Gunpowder civilization",
+        "advantages": ["Villagers cost -10% Dark, -15% Feudal, -20% Castle, -25% Imperial Age", "Camel Riders attack 25% faster", "Gunpowder units +1/+1P armor", "Can build Caravanserai in Imperial Age"],
+        "unique_units": ["Ghulam (infantry)", "Imperial Camel Rider (camel rider)"],
+        "unique_techs": ["Grand Trunk Road (All gold income 10% faster)", "Shatagni (Hand Cannoneers +2 range)"],
+        "team_bonus": "Camel and light cavalry units +2 attack vs. buildings",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k51", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["c", "x"],
+                "d" : { "units" : ["d63", "d71", "d72"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u81", "u91"] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a31", "a42"] },
+                "l" : { "units" : ["l13", "l33", "l34"] },
+                "k" : { "units" : ["k52", "k22", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v3", "v4"] }
+            }
+        }
+    },
+    "huns" : {
+        "title": "Cavalry civilization",
+        "advantages": ["Do not need houses, but start with -100 wood", "Cavalry Archers cost -10% Castle, -20% Imperial Age", "Trebuchets +30% accuracy"],
+        "unique_units": ["Tarkan (cavalry)"],
+        "unique_techs": ["Marauders (Create Tarkans at stables)", "Atheism (+100 years Relic, Wonder victories; enemy relics generate -50% resources)"],
+        "team_bonus": "Stables work 20% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u31", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "d" : { "units" : ["d53", "d63"], "tech" : ["d22"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s33", "s43" ] },
+                "y" : { "tech" : ["y7", "y8"] },
+                "u" : { "tech" : ["u81"] },
+                "b" : { "units" : ["b14", "b23"] },
+                "a" : { "units" : ["a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22", "l23"] },
+                "k" : { "units" : ["k12", "k13"] },
+                "v" : { "units" : ["v2"], "tech" : ["v2", "v3", "v4"] }
+            }
+        }
+    },
+    "incas" : {
+        "title": "Infantry civilization",
+        "advantages": ["Start with a free Llama", "Villagers affected by Blacksmith upgrades starting in the Castle Age", "Houses support 10 population", "Buildings cost -15% stone"],
+        "unique_units": ["Kamayuk (infantry)", "Slinger (archer)"],
+        "unique_techs": ["Andean Sling (Skirmishers and Slingers no minimum range)", "Fabric Shields (Kamayuks, Slingers, Eagles +1/+2P armor)"],
+        "team_bonus": "Spearmen and Skirmishers +2 line of sight",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21", "b31"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y3", "y4", "y5"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22", "b32"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "ua1"], "tech" : ["a1"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63"], "tech" : ["d22", "d31"] },
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u42", "u81", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23", "b33"] },
+                "a" : { "units" : ["a13"] },
+                "k" : { "units" : ["k12", "k13", "k23", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "italians" : {
+        "title": "Archer and Naval civilization",
+        "advantages": ["Advancing to the next age costs -15%", "Dock and University technologies cost -33%", "Fishing Ships cost -15%", "Gunpowder units cost -20%"],
+        "unique_units": ["Genoese Crossbowman (archer)", "Condottiero (infantry)"],
+        "unique_techs": ["Pavise (foot archers and Condottieri +1 armor/+1 pierce armor)", "Silk Road (trade units cost -50%)"],
+        "team_bonus": "Condottiero available in the Barracks in Imperial Age",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71", "d72"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "ub1"] },
+                "a" : { "units" : ["a13", "a31"] },
+                "l" : { "units" : ["l13", "l22"] },
+                "k" : { "units" : ["k12", "k22", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v3", "v4"] }
+            }
+        }
+    },
+    "japanese" : {
+        "title": "Infantry civilization",
+        "advantages": ["Fishing Ships 2x hit points; +2P armor; work rate +5% Dark, +10% Feudal, +15% Castle, +20% Imperial Age", "Mill, Lumber/Mining Camps cost -50%", "Infantry attack 33% faster starting in Feudal Age"],
+        "unique_units": ["Samurai (infantry)"],
+        "unique_techs": ["Yasama (Towers shoot extra arrows)", "Kataparuto (Trebuchets fire, pack faster)"],
+        "team_bonus": "Galleys +50% line of sight",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "d" : { "units" : ["d43", "d63", "d71", "d72"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22"] },
+                "s" : { "tech" : ["s13", "s23", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u42", "u81", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a31", "a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l22"] },
+                "k" : { "units" : ["k12", "k22", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v3", "v4"] }
+            }
+        }
+    },
+    "khmer" : {
+        "title": "Siege and Elephant civilization",
+        "advantages": ["No buildings required to advance to the next age or to unlock other buildings", "Farmers don't require Mills/Town Centers to drop off food", "Battle Elephants move 10% faster", "Villagers can garrison in Houses"],
+        "unique_units": ["Ballista Elephant (mounted scorpion"],
+        "unique_techs": ["Tusk Swords (Battle Elephants +3 attack)", "Double Crossbow (Ballista Elephants and Scorpions fire two projectiles)"],
+        "team_bonus": "Scorpions +1 range",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l12", "l21", "l41"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71", "d72"], "tech" : ["d22"] },
+                "m" : { "tech" : ["m22"] },
+                "s" : { "tech" : ["s13", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u91"] },
+                "b" : { "units" : ["b14", "b23"] },
+                "a" : { "units" : ["a13", "a31", "a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22", "l52"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "koreans" : {
+        "title": "Defensive and Naval civilization",
+        "advantages": ["Villagers +3 line of sight", "Stone miners work 20% faster", "Tower upgrades free (Bombard Tower requires Chemistry)", "Archer armor upgrades free", "Military units (except siege weapons) cost -20% wood"],
+        "unique_units": ["War Wagon (cavalry archer)", "Turtle Ship (war ship)"],
+        "unique_techs": ["Eupseong (Watch Towers, Guard Towers and Keeps +2 range)", "Shinkichon (Mangonel-line +1 range)"],
+        "team_bonus": "Mangonel-line minimum range reduced",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d62", "ud31"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "d" : { "units" : ["d43", "d63", "d71", "d72", "ud32"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s23", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a31", "a42"] },
+                "l" : { "units" : ["l13", "l22"] },
+                "k" : { "units" : ["k12", "k22", "k23", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v3", "v4"] }
+            }
+        }
+    },
+    "lithuanians" : {
+        "title": "Cavalry and Monk civilization",
+        "advantages": ["Start with +150 food", "Spearman-line and Skirmishers move 10% faster", "Each garrisoned relic gives +1 attack to Knights and Leitis (maximum +4)"],
+        "unique_units": ["Leitis (cavalry)", "Winged Hussar (cavalry)"],
+        "unique_techs": ["Hill Forts (Town Centers +3 range)", "Tower Shields (Spearman-line and Skirmishers +2P armor)"],
+        "team_bonus": "Monasteries work 20% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71", "d72"], "tech" : ["d22"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a31", "a42"]},
+                "l" : { "units" : ["l14", "l22", "l23"] },
+                "k" : { "units" : ["k12", "k22", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v3", "v4"] }
+            }
+        }
+    },
+    "magyars" : {
+        "title": "Cavalry civilization",
+        "advantages": ["Villagers kill wolves with 1 strike", "Forging, Iron Casting, Blast Furnace free", "Scout Cavalry, Light Cavalry, Hussar cost -15%"],
+        "unique_units": ["Magyar Huszar (cavalry)"],
+        "unique_techs": ["Corvinian Army (Magyar Huszars cost no gold)", "Recurve Bow (Cavalry archers +1 range, +1 attack)"],
+        "team_bonus": "Foot archers +2 line of sight",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y8", "y9", "y10"] },
+                "u" : { "tech" : ["u81", "u91"] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22", "l23"] },
+                "k" : { "units" : ["k12", "k22", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "malay" : {
+        "title": "Naval civilization",
+        "advantages": ["Advancing to the next age 66% faster", "Fish Traps cost -33% and provide 3X food", "Battle Elephants cost -30% in Castle, -40% in Imperial Age"],
+        "unique_units": ["Karambit Warrior (infantry)"],
+        "unique_techs": ["Thalassocracy (upgrades Docks to Harbors, which fire arrows)", "Forced Levy (Militia-line gold cost is replaced by additional food cost)"],
+        "team_bonus": "Docks +100% line of sight",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y4", "y5"]},
+                "u" : { "tech" : ["u11", "u31", "u41", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l41"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71", "d72"], "tech" : ["d22", "d31"] },
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9"] },
+                "u" : { "tech" : ["u42", "u81", "u82", "u91" ] },
+                "b" : { "units" : ["b14", "b23"] },
+                "a" : { "units" : ["a13"] },
+                "l" : { "units" : ["l22", "l42"] },
+                "k" : { "units" : ["k12", "k22", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v2", "v3", "v4"] }
+            }
+        }
+    },
+    "malians" : {
+        "title": "Infantry civilization",
+        "advantages": ["Buildings cost -15% wood", "Barracks units +1P armor per age (starting from Feudal Age)", "Gold Mines last 30% longer"],
+        "unique_units": ["Gbeto (infantry)"],
+        "unique_techs": ["Tigui (Town Centers fire arrows when ungarrisoned)", "Farimba (Cavalry +5 attack)"],
+        "team_bonus": "Universities work 80% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63", "d71"], "tech" : ["d22"] },
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s23", "s33", "s53" ] },
+                "y" : { "tech" : ["y7", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81"] },
+                "b" : { "units" : ["b14", "b15"] },
+                "a" : { "units" : ["a13", "a31", "a42"] },
+                "l" : { "units" : ["l22", "l33"] },
+                "k" : { "units" : ["k12", "k22", "k23", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "mayans" : {
+        "title": "Archer civilization",
+        "advantages": ["Start with +1 villager, but -50 food", "Resources last 15% longer", "Archers cost -10% Feudal, -20% Castle, -30% Imperial Age"],
+        "unique_units": ["Plumed Archer (archer)"],
+        "unique_techs": ["Hul'che Javelineers (Skirmishers throw a second projectile)", "El Dorado (Eagle Warriors have +40 hit points)"],
+        "team_bonus": "Walls cost -50%",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21", "b31"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22", "b32"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22"], "tech" : ["a1"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81"] },
+                "b" : { "units" : ["b14", "b23", "b33"] },
+                "a" : { "units" : ["a13"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "mongols" : {
+        "title": "Cavalry Archer civilization",
+        "advantages": ["Cavalry archers fire 25% faster", "Light Cavalry, Hussars, Steppe Lancers +30% hit points", "Hunters work 40% faster"],
+        "unique_units": ["Mangudai (cavalry archer)"],
+        "unique_techs": ["Nomads (lost houses do not decrease population headroom)", "Drill (Siege Workshop units move 50% faster)"],
+        "team_bonus": "Scout Cavalry, Light Cavalry, Hussar +2 line of sight",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y3", "y4", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32", "l51"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "d" : { "units" : ["d43", "d53", "d63", "d71"], "tech" : ["d31"] },
+                "m" : { "tech" : ["m22"] },
+                "s" : { "tech" : ["s13", "s23", "s43"] },
+                "y" : { "tech" : ["y7"] },
+                "u" : { "tech" : ["u81", "u91" ] },
+                "b" : { "units" : ["b14", "b15"] },
+                "a" : { "units" : ["a13", "a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22", "l33", "l52"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k23", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "persians" : {
+        "title": "Cavalry civilization",
+        "advantages": ["Start with +50 wood, food", "Town Center, Dock 2x hit points; work rate +10% Feudal, +15% Castle, +20% Imperial Age"],
+        "unique_units": ["War Elephant (cavalry)"],
+        "unique_techs": ["Kamandaran (Archer-line gold cost is replaced by additional wood cost)", "Mahouts (War Elephants 30% faster)"],
+        "team_bonus": "Knights +2 attack vs. Archers",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y3", "y6"]},
+                "u" : { "tech" : ["u11", "u31", "u41", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22", "b32"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63", "d71", "d72"], "tech" : ["d22"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s53" ] },
+                "y" : { "tech" : ["y7", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u81"] },
+                "b" : { "units" : ["b23"] },
+                "a" : { "units" : ["a31", "a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22", "l23", "l33"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "poles" : {
+        "title": "Cavalry civilization",
+        "advantages": ["Villagers regenerate 5 HP per minute in Dark, 10 in Feudal, 15 in Castle, 20 in Imperial Age", "Folwark replaces Mill", "Stone Miners generate gold in addition to stone"],
+        "unique_units": ["Obuch (infantry)", "Winged Hussar (cavalry)"],
+        "unique_techs": ["Szlachta Privileges (Knights cost -60% gold)", "Lechitic Legacy (Light Cavalry deals trample damage)"],
+        "team_bonus": "Scout Cavalry, Light Cavalry, Hussar +1 attack vs. Archers",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i2", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i2" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i2" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71"] },
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s43"] },
+                "y" : { "tech" : ["y7", "y9", "y10"] },
+                "u" : { "tech" : ["u42", "u81", "u82", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15"] },
+                "a" : { "units" : ["a13", "a42"] },
+                "l" : { "units" : ["l14", "l22"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "portugese" : {
+        "title": "Naval and Gunpowder civilization",
+        "advantages": ["All units cost -20% gold", "Technologies researched 30% faster", "Ships +10% HP", "Can build Feitoria in Imperial Age"],
+        "unique_units": ["Organ Gun (siege)", "Caravel (war ship)"],
+        "unique_techs": ["Carrack (Ships +1/+1 armor)", "Arquebus (gunpowder units more accurate)"],
+        "team_bonus": "Line of sight is shared with the team starting in the Dark Age",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62", "ud21"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["r", "x", "t3", "j"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d53", "d63", "d71", "d72", "ud22"], "tech" : ["d22"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82", "u91"] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a31"] },
+                "l" : { "units" : ["l22"] },
+                "k" : { "units" : ["k12", "k22", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v2", "v3", "v4"] }
+            }
+        }
+
+    },
+    "saracens" : {
+        "title": "Camel and Naval civilization",
+        "advantages": ["Market trade cost only 5%", "Markets cost -100 wood", "Transport Ships 2x hit points, 2x carry capacity", "Galleys attack 25% faster", "Camel units +10 hit points"],
+        "unique_units": ["Mameluke (camel rider)"],
+        "unique_techs": ["Zealotry (Camel units +20 hit points)", "Counterweights (Trebuchets and Mangonel-line +15% attack)"],
+        "team_bonus": "Foot archers +2 attack vs. buildings",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3"],
+                "d" : { "units" : ["d53", "d63", "d71", "d72"], "tech" : ["d22"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15"] },
+                "a" : { "units" : ["a13", "a31", "a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l33"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k23", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v3", "v4"] }
+            }
+        }
+    },
+    "sicilians" : {
+        "title": "Infantry and Cavalry civilization",
+        "advantages": ["Start with +100 ston", "Castles and Town Centers built 100% faster", "Land military units (except siege weapons) receive 50% less bonus damage", "Farm upgrades provide +100% additional food", "Donjon replaces Watch Tower-line"],
+        "unique_units": ["Serjeant (infantry)"],
+        "unique_techs": ["First Crusade (Each Town Center (maximum 5) spawns a one-time batch of 7 Serjeants; units more resistant to conversion)", "Hauberk (Knights +1/+2P armor)"],
+        "team_bonus": "Transport Ships +5 line of sight and cost -50%",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "n", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] },
+                "n" : { "units" : ["zsicilians"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12", "g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u31", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63", "d71"], "tech" : ["d22", "d31"] },
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43"] },
+                "y" : { "tech" : ["y7", "y8"] },
+                "u" : { "tech" : ["u81", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13"] },
+                "l" : { "units" : ["l22"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k23", "k32"] },
+                "n" : { "units" : ["elite_zsicilians"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "slavs" : {
+        "title": "Infantry and Siege civilization",
+        "advantages": ["Farmers work 10% faster", "Supplies free", "Siege Workshop units 15% cheaper"],
+        "unique_units": ["Boyar (cavalry)"],
+        "unique_techs": ["Detinets (Replaces 40% of Castles' and Towers' stone cost with wood)", "Druzhina (Infantry damage adjacent units)"],
+        "team_bonus": "Military buildings provide +5 population room",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71"], "tech" : ["d22"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u81", "u82", "u91" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a42"] },
+                "l" : { "units" : ["l13", "l22"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k23", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "spanish" : {
+        "title": "Gunpowder and Monk civilization",
+        "advantages": ["Builders work 30% faster", "Blacksmith upgrades don't cost gold", "Cannon Galleons benefit from Ballistics (fire faster, more accurately)", "Gunpowder units fire 18% faster"],
+        "unique_units": ["Conquistador (mounted hand cannoneer)", "Missionary (mounted Monk)"],
+        "unique_techs": ["Inquisition (Monks convert faster)", "Supremacy (Villagers stronger in combat)"],
+        "team_bonus": "Trade units generate +25% gold",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11", "uy1"], "tech" : ["y1", "y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u61"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "d" : { "units" : ["d43", "d53", "d63", "d71", "d72"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a31", "a42"] },
+                "l" : { "units" : ["l13", "l22", "l23"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "tatars" : {
+        "title": "Cavalry Archer civilization",
+        "advantages": ["Villagers gather +50% food from herdables", "New Town Centers spawn 2 Sheep starting in the Castle Age", "Units deal +25% damage when fighting from higher elevation", "Thumb Ring, Parthian Tactics free"],
+        "unique_units": ["Keshik (raiding cavalry)", "Flaming Camel (petard)"],
+        "unique_techs": ["Silk Armor (Light Cavalry, Steppe Lancers and Cavalry Archers receive +1/+1P armor)", "Timurid Siegecraft (Trebuchets +2 range, enables Flaming Camels)"],
+        "team_bonus": "Cavalry Archers +2 line of sight",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y3", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32", "l51"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "j"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d63", "d71", "d72"], "tech" : ["d22"] },
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y8", "y9"] },
+                "u" : { "tech" : ["u81", "u82", "u91"] },
+                "b" : { "units" : ["b14", "b23"] },
+                "a" : { "units" : ["a31", "a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22", "l33", "l52"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k23", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v2", "v3", "v4"] }
+            }
+        }
+    },
+    "teutons" : {
+        "title": "Infantry civilization",
+        "advantages": ["Monks healing range 2x", "Towers garrison 2x units", "Murder Holes, Herbal Medicine free", "Farms cost -40%", "Town Center garrison +10", "Barracks and Stable units +1 armor in Castle and Imperial Age (+2 total)"],
+        "unique_units": ["Teutonic Knight (infantry)"],
+        "unique_techs": ["Ironclad (siege weapons extra melee armor)", "Crenellations (+3 range Castles garrisoned infantry fire arrows)"],
+        "team_bonus": "Units resist conversion",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y3", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d43", "d53", "d63", "d71"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u42", "u81", "u82", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a31"] },
+                "l" : { "units" : ["l22"] },
+                "k" : { "units" : ["k12", "k22", "k23", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "turks" : {
+        "title": "Gunpowder civilization",
+        "advantages": ["Gunpowder units +25% hit points; researching gunpowder technologies costs -50%; Chemistry free", "Gold miners work 20% faster", "Scout Cavalry, Light Cavalry, Hussar +1P armor", "Light Cavalry and Hussar upgrades free"],
+        "unique_units": ["Janissary (hand cannoneer)"],
+        "unique_techs": ["Sipahi (Cavalry Archers +20 HP)", "Artillery (+2 range Bombard Towers, Bombard Cannons, Cannon Galleons)"],
+        "team_bonus": "Gunpowder units created 25% faster",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y1", "y2", "y4", "y5", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l32"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "d" : { "units" : ["d53", "d63", "d71", "d72"], "tech" : ["d22", "d31"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y10"] },
+                "u" : { "tech" : ["u12", "u42", "u81", "u82", "u101" ] },
+                "b" : { "units" : ["b14", "b15"] },
+                "a" : { "units" : ["a31", "a42"], "tech" : ["a2"] },
+                "l" : { "units" : ["l13", "l22", "l23"] },
+                "k" : { "units" : ["k12", "k13", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "vietnamese" : {
+        "title": "Archer civilization",
+        "advantages": ["Enemy positions are revealed at the start of the game", "Economic upgrades cost no wood", "Archery Range units +20% HP", "Conscription free"],
+        "unique_units": ["Rattan Archer (archer)", "Imperial Skirmisher (skirmisher)"],
+        "unique_techs": ["Chatras (Battle Elephants +100 HP)", "Paper Money (Lumberjacks slowly generate gold in addition to wood)"],
+        "team_bonus": "Imperial Skirmisher upgrade available in the Imperial Age",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d41", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"], "tech" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d42", "d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g22"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y3", "y5"]},
+                "u" : { "tech" : ["u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"], "tech" : ["a1"] },
+                "l" : { "units" : ["l12", "l21", "l41"], "tech" : ["l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x", "t3", "j"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d53", "d63", "d71", "d72"], "tech" : ["d22"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s23", "s33", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y8", "y9", "y10"] },
+                "u" : { "tech" : ["u42", "u81", "u82", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15", "b23"] },
+                "a" : { "units" : ["a13", "a23", "a42"] },
+                "l" : { "units" : ["l22", "l42"] },
+                "k" : { "units" : ["k12", "k22", "k32", "k41"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    },
+    "vikings" : {
+        "title": "Infantry and Naval civilization",
+        "advantages": ["Warships cost -15% Feudal Age, -15% Castle Age, -20% Imperial Age", "Infantry +20% hit points starting in Feudal Age", "Wheelbarrow, Hand Cart free"],
+        "unique_units": ["Berserk (infantry)", "Longboat (warship)"],
+        "unique_techs": ["Chieftains (infantry deal bonus damage to cavalry)", "Berserkergang (Berserks regenerate faster)"],
+        "team_bonus": "Docks cost -15%",
+        "tree": {
+            "dark" : {
+                "build" : ["e", "i", "d", "g", "z", "b", "o", "p", "pg"],
+                "h" : { "units" : ["h1"], "tech" : ["h11", "h41"] }, 
+                "i" : { "buildings" : ["f"] },
+                "d" : { "units" : ["d1", "d2"] },
+                "b" : { "units" : ["b11"] }
+            },
+            "feudal" : {
+                "build" : [ "m", "s", "a", "l", "t1", "w1", "wg" ],
+                "h" : { "tech" : ["h21", "h31", "h42"] },
+                "i" : { "tech" : ["i11"] },
+                "d" : { "units" : ["d3", "d51", "d61"], "buildings" : ["q"] },
+                "g" : { "tech" : ["g11", "g21"] },
+                "z" : { "tech" : ["z11"] },
+                "m" : { "units" : ["m1"]},
+                "s" : { "tech" : ["s11", "s21", "s31", "s41", "s51"] },
+                "b" : { "units" : ["b12", "b21"], "tech" : ["b1"] },
+                "a" : { "units" : ["a11", "a21", "a41", "a31"] },
+                "l" : { "units" : ["l11"] }
+            },
+            "castle" : {
+                "build" : ["h", "y", "u", "k", "v", "w2", "t2"],
+                "h" : { "tech" : ["h22", "h32", "h43"] },
+                "i" : { "tech" : ["i12"]},
+                "d" : { "units" : ["d52", "d62"], "tech" : ["d11", "d21"] },
+                "g" : { "tech" : ["g12"] },
+                "z" : { "tech" : ["z12"]},
+                "m" : { "tech" : ["m11", "m21"] },
+                "s" : { "tech" : ["s12", "s22", "s32", "s42", "s52"] },
+                "y" : { "units" : ["y11"], "tech" : ["y2", "y4", "y6"]},
+                "u" : { "tech" : ["u11", "u21", "u31", "u41", "u51", "u61", "u71"] },
+                "b" : { "units" : ["b13", "b22"], "tech" : ["b2", "b3"] },
+                "a" : { "units" : ["a12", "a22", "a41"] },
+                "l" : { "units" : ["l12", "l21"] },
+                "k" : { "units" : ["k11", "k21", "k31", "k61"] },
+                "v" : { "units" : ["v1"] }
+            },
+            "imperial" : {
+                "build" : ["x"],
+                "i" : { "tech" : ["i13"] },
+                "d" : { "units" : ["d53", "d63", "d71", "d72"], "tech" : ["d22"] },
+                "z" : { "tech" : ["z13"]},
+                "m" : { "tech" : ["m22", "m31"] },
+                "s" : { "tech" : ["s13", "s23", "s43", "s53" ] },
+                "y" : { "tech" : ["y7", "y9"] },
+                "u" : { "tech" : ["u12", "u81", "u91", "u101" ] },
+                "b" : { "units" : ["b14", "b15"] },
+                "a" : { "units" : ["a13"] },
+                "l" : { "units" : ["l22"] },
+                "k" : { "units" : ["k12", "k13", "k22", "k32"] },
+                "v" : { "units" : ["v2"], "tech" : ["v1", "v2", "v3", "v4"] }
+            }
+        }
+    }
+} 

@@ -1,0 +1,753 @@
+{
+	"a1": {
+		"name": "Thumb Ring",
+		"info": "Archers fire faster and with 100% accuracy.",
+		"cost": {
+			"wood": "250",
+			"food": "300",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"a2": {
+		"name": "Parthian Tactics",
+		"info": "Mounted Archers have +1 normal/+2 pierce armor; Cavalry Archers have +4, Unique Mounted Archers +2 attack vs. pikemen.",
+		"cost": {
+			"wood": "",
+			"food": "200",
+			"gold": "250",
+			"stone": ""
+		}
+	},
+	"b1": {
+		"name": "Supplies",
+		"info": "Militia-line costs -15 food.",
+		"cost": {
+			"wood": "",
+			"food": "75",
+			"gold": "75",
+			"stone": ""
+		}
+	},
+	"b2": {
+		"name": "Squires",
+		"info": "Infantry move 10% faster.",
+		"cost": {
+			"wood": "",
+			"food": "100",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"b3": {
+		"name": "Arson",
+		"info": "Infantry do more damage vs. buildings.",
+		"cost": {
+			"wood": "",
+			"food": "150",
+			"gold": "50",
+			"stone": ""
+		}
+	},
+	"v1": {
+		"name": "Hoardings",
+		"info": "Strengthens Castles by providing +20% hit points.",
+		"cost": {
+			"wood": "400",
+			"food": "400",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"v2": {
+		"name": "Sappers",
+		"info": "Villagers cause +15 damage when attacking buildings.",
+		"cost": {
+			"wood": "",
+			"food": "400",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"v3": {
+		"name": "Conscription",
+		"info": "Military buildings (except Siege Workshops) work 33% faster.",
+		"cost": {
+			"wood": "",
+			"food": "150",
+			"gold": "150",
+			"stone": ""
+		}
+	},
+	"v4": {
+		"name": "Spies/Treason",
+		"info": "Spies (Random Map games) reveals all enemy units and buildings by showing you their line of sight. The total cost is 200 gold per each villager from other players; allied villagers are excluded when teams are locked.Treason (Regicide games) reveals the position of all enemy Kings to your team for a few seconds. The Kings appear on the mini-map as a flashing X. Each time you choose Treason, 400 gold is immediately deducted from your stockpile.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "",
+			"stone": "",
+			"other": "200 per enemy villager for Spies/400 per use for Treason"
+		}
+	},
+	"d11": {
+		"name": "Gillnets",
+		"info": "Fishing Ships gather 25% faster.",
+		"cost": {
+			"wood": "200",
+			"food": "150",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"d21": {
+		"name": "Careening",
+		"info": "Makes ships less vulnerable to missile attack with +1 pierce armor. Transport Ships carry +5 units.",
+		"cost": {
+			"wood": "",
+			"food": "250",
+			"gold": "150",
+			"stone": ""
+		}
+	},
+	"d22": {
+		"name": "Dry Dock",
+		"info": "Ships move 15% faster. Transport Ships carry +10 units.",
+		"cost": {
+			"wood": "",
+			"food": "600",
+			"gold": "400",
+			"stone": ""
+		}
+	},
+	"d31": {
+		"name": "Shipwright",
+		"info": "Ships cost 20% less wood; build 35% faster.",
+		"cost": {
+			"wood": "",
+			"food": "100",
+			"gold": "300",
+			"stone": ""
+		}
+	},
+	"g11": {
+		"name": "Gold Mining ",
+		"info": "Villagers mine gold 15% faster.",
+		"cost": {
+			"wood": "75",
+			"food": "100",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"g12": {
+		"name": "Gold Shaft Mining",
+		"info": "Villagers mine gold 15% faster.",
+		"cost": {
+			"wood": "150",
+			"food": "200",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"g21": {
+		"name": "Stone Mining",
+		"info": "Villagers mine stone 15% faster.",
+		"cost": {
+			"wood": "75",
+			"food": "100",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"g22": {
+		"name": "Stone Shaft Mining",
+		"info": "Villagers mine stone 15% faster.",
+		"cost": {
+			"wood": "150",
+			"food": "200",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"h11": {
+		"name": "Loom",
+		"info": "Makes your villagers harder to kill by providing +15 hit points and +1 normal/+2 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "50",
+			"stone": ""
+		}
+	},
+	"h21": {
+		"name": "Town Watch",
+		"info": "Increases the line of sight of all buildings by +4 so they see enemies from a longer distance.",
+		"cost": {
+			"wood": "",
+			"food": "75",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"h22": {
+		"name": "Town Patrol",
+		"info": "Increases the line of sight of all buildings by +4 so they see enemies from a longer distance.",
+		"cost": {
+			"wood": "",
+			"food": "300",
+			"gold": "100",
+			"stone": ""
+		}
+	},
+	"h31": {
+		"name": "Wheelbarrow",
+		"info": "Villagers work more efficiently by moving 10% faster and carrying 25% more resources.",
+		"cost": {
+			"wood": "50",
+			"food": "175",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"h32": {
+		"name": "Hand Cart",
+		"info": "Villagers work more efficiently by moving 10% faster and carrying 50% more",
+		"cost": {
+			"wood": "200",
+			"food": "300",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"h41": {
+		"name": "Feudal Age",
+		"info": "Improves your civilization. Gives you access to different buildings, more powerful military units, and stronger technologies. Before you can advance, you must have any two Dark Age buildings: Lumber Camp, Mining Camp, Mill, Dock, or Barracks.",
+		"cost": {
+			"wood": "",
+			"food": "500",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"h42": {
+		"name": "Castle Age",
+		"info": "Improves your civilization. Gives you access to different buildings, more powerful military units, and stronger technologies. Before you can advance, you must have any two Feudal Age buildings: Archery Range, Stable, Blacksmith, or Market.",
+		"cost": {
+			"wood": "",
+			"food": "800",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"h43": {
+		"name": "Imperial Age",
+		"info": "Improves your civilization. Gives you access to different buildings, more powerful military units, and stronger technologies. Before you can advance, you must have a Castle/Krepost or any two Castle Age buildings: University, Siege Workshop, or Monastery.",
+		"cost": {
+			"wood": "",
+			"food": "1000",
+			"gold": "800",
+			"stone": ""
+		}
+	},
+	"i11": {
+		"name": "Horse Collar",
+		"info": "Farms produce +75 food so they last longer before you must rebuild them.",
+		"cost": {
+			"wood": "75",
+			"food": "75",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"i12": {
+		"name": "Heavy Plow",
+		"info": "Farms produce +125 food so they last longer before you must rebuild them. Farmers carry +1 food each trip.",
+		"cost": {
+			"wood": "125",
+			"food": "125",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"i13": {
+		"name": "Crop Rotation",
+		"info": "Farms produce +175 food so they last longer before you must rebuild them.",
+		"cost": {
+			"wood": "250",
+			"food": "250",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"l11": {
+		"name": "Bloodlines",
+		"info": "Mounted units have +20 hit points.",
+		"cost": {
+			"wood": "",
+			"food": "150",
+			"gold": "100",
+			"stone": ""
+		}
+	},
+	"l21": {
+		"name": "Husbandry",
+		"info": "Cavalry move 10% faster.",
+		"cost": {
+			"wood": "",
+			"food": "150",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"m11": {
+		"name": "Caravan",
+		"info": "Trade Carts and Trade Cogs move 50% faster (so gold accumulates faster).",
+		"cost": {
+			"wood": "",
+			"food": "200",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"m21": {
+		"name": "Coinage",
+		"info": "Reduces fee for tributes to 20%.",
+		"cost": {
+			"wood": "",
+			"food": "200",
+			"gold": "100",
+			"stone": ""
+		}
+	},
+	"m22": {
+		"name": "Banking",
+		"info": "Tributes are free.",
+		"cost": {
+			"wood": "",
+			"food": "300",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"m31": {
+		"name": "Guilds",
+		"info": "Reduces the commodity trading fee to 15%.",
+		"cost": {
+			"wood": "",
+			"food": "300",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"s11": {
+		"name": "Forging",
+		"info": "Infantry and cavalry have +1 attack.",
+		"cost": {
+			"wood": "",
+			"food": "150",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"s12": {
+		"name": "Iron Casting",
+		"info": "Infantry and cavalry have +1 attack.",
+		"cost": {
+			"wood": "",
+			"food": "220",
+			"gold": "120",
+			"stone": ""
+		}
+	},
+	"s13": {
+		"name": "Blast Furnace",
+		"info": "Infantry and cavalry have +2 attack.",
+		"cost": {
+			"wood": "",
+			"food": "275",
+			"gold": "225",
+			"stone": ""
+		}
+	},
+	"s21": {
+		"name": "Scale Mail Armor",
+		"info": "Infantry have +1 normal/+1 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "100",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"s22": {
+		"name": "Chain Mail Armor",
+		"info": "Infantry have +1 normal/+1 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "200",
+			"gold": "100",
+			"stone": ""
+		}
+	},
+	"s23": {
+		"name": "Plate Mail Armor",
+		"info": "Infantry have +1 normal/+2 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "300",
+			"gold": "150",
+			"stone": ""
+		}
+	},
+	"s31": {
+		"name": "Scale Barding Armor",
+		"info": "Cavalry have +1 normal/+1 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "150",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"s32": {
+		"name": "Chain Barding Armor",
+		"info": "Cavalry have +1 normal/+1 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "250",
+			"gold": "150",
+			"stone": ""
+		}
+	},
+	"s33": {
+		"name": "Plate Barding Armor",
+		"info": "Cavalry have +1 normal/+2 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "350",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"s41": {
+		"name": "Fletching",
+		"info": "Archers, cavalry archers, galleys, Castles, and towers have +1 attack and +1 range. Town Centers have +1 attack.",
+		"cost": {
+			"wood": "",
+			"food": "100",
+			"gold": "50",
+			"stone": ""
+		}
+	},
+	"s42": {
+		"name": "Bodkin Arrow",
+		"info": "Archers, cavalry archers, galleys, Castles, and towers have +1 attack and +1 range. Town Centers have +1 attack.",
+		"cost": {
+			"wood": "",
+			"food": "200",
+			"gold": "100",
+			"stone": ""
+		}
+	},
+	"s43": {
+		"name": "Bracer",
+		"info": "Archers, cavalry archers, galleys, Castles, and towers have +1 attack and +1 range. Town Centers have +1 attack.",
+		"cost": {
+			"wood": "",
+			"food": "300",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"s51": {
+		"name": "Padded Archer Armor",
+		"info": "Archers and cavalry archers have +1 normal/+1 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "100",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"s52": {
+		"name": "Leather Archer Armor",
+		"info": "Archers and cavalry archers have +1 normal/+1 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "150",
+			"gold": "150",
+			"stone": ""
+		}
+	},
+	"s53": {
+		"name": "Ring Archer Armor",
+		"info": "Archers and cavalry archers have +1 normal/+2 pierce armor.",
+		"cost": {
+			"wood": "",
+			"food": "250",
+			"gold": "250",
+			"stone": ""
+		}
+	},
+	"u101": {
+		"name": "Arrowslits",
+		"info": "Increases the attack of towers and Donjons.",
+		"cost": {
+			"wood": "250",
+			"food": "250",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"u11": {
+		"name": "Masonry",
+		"info": "Strengthens all buildings by providing 10% more hit points, +1 normal/+1 pierce armor, and +3 building armor.",
+		"cost": {
+			"wood": "175",
+			"food": "150",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"u12": {
+		"name": "Architecture",
+		"info": "Strengthens all buildings by providing 10% more hit points, +1 normal/+1 pierce armor, and +3 building armor.",
+		"cost": {
+			"wood": "200",
+			"food": "300",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"u21": {
+		"name": "Fortified Wall",
+		"info": "Upgrades your Stone Walls and lets you build Fortified Walls, which are stronger and harder to breach. Also increases the hit points of your Gates, which makes them harder to destroy.",
+		"cost": {
+			"wood": "100",
+			"food": "200",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"u31": {
+		"name": "Ballistics",
+		"info": "Archers, Town Centers, Castles, Galleys, Unique Naval Units, and Mounted Archers fire more accurately at moving targets.",
+		"cost": {
+			"wood": "300",
+			"food": "",
+			"gold": "175",
+			"stone": ""
+		}
+	},
+	"u41": {
+		"name": "Guard Tower",
+		"info": "Upgrades your Watch Towers and lets you build Guard Towers, which are stronger and have more attack strength.",
+		"cost": {
+			"wood": "250",
+			"food": "100",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"u42": {
+		"name": "Keep",
+		"info": "Upgrades Guard Towers and lets you build Keeps, which are stronger and have more attack strength, range, and armor.",
+		"cost": {
+			"wood": "350",
+			"food": "500",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"u51": {
+		"name": "Heated Shot",
+		"info": "Towers cause 125% more damage to ships; Castles cause 25% more damage to ships.",
+		"cost": {
+			"wood": "",
+			"food": "350",
+			"gold": "100",
+			"stone": ""
+		}
+	},
+	"u61": {
+		"name": "Murder Holes",
+		"info": "Eliminates the minimum range of all towers, Castles and Harbors so they can fire at enemies attacking their base.",
+		"cost": {
+			"wood": "",
+			"food": "200",
+			"gold": "",
+			"stone": "100"
+		}
+	},
+	"u71": {
+		"name": "Treadmill Crane",
+		"info": "Villagers construct buildings 20% faster.",
+		"cost": {
+			"wood": "200",
+			"food": "300",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"u81": {
+		"name": "Chemistry ",
+		"info": "Missile units (except gunpowder units) have +1 attack strength.",
+		"cost": {
+			"wood": "",
+			"food": "300",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"u82": {
+		"name": "Bombard Tower",
+		"info": "Lets you build Bombard Towers, which are powerful and have extensive line of sight.",
+		"cost": {
+			"wood": "400",
+			"food": "800",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"u91": {
+		"name": "Siege Engineers",
+		"info": "Siege weapons have +1 range (except rams) and cause 20% more damage to buildings (40% more for Petards).",
+		"cost": {
+			"wood": "600",
+			"food": "500",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"y1": {
+		"name": "Redemption",
+		"info": "Monks can convert enemy buildings (except Town Centers, Castles, Monasteries, Farms, Fish Traps, walls, Gates, and Wonders) and siege weapons. Monks can convert most enemy units from a distance, but they must stand adjacent to buildings, rams, and Trebuchets to convert them.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "475",
+			"stone": ""
+		}
+	},
+	"y10": {
+		"name": "Theocracy",
+		"info": "If a group of Monks converts an enemy unit, only one of the Monks must rest afterward.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"y2": {
+		"name": "Atonement",
+		"info": "Monks can convert enemy Monks.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "325",
+			"stone": ""
+		}
+	},
+	"y3": {
+		"name": "Herbal Medicine",
+		"info": "Units garrisoned in buildings heal 6X faster.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"y4": {
+		"name": "Heresy",
+		"info": "Units converted by an enemy Monk (or Missionary) die instead of changing to the enemy's color.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "1000",
+			"stone": ""
+		}
+	},
+	"y5": {
+		"name": "Sanctity",
+		"info": "Monks have +15 hit points so they are harder to kill.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "120",
+			"stone": ""
+		}
+	},
+	"y6": {
+		"name": "Fervor",
+		"info": "Monks move 15% faster.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "140",
+			"stone": ""
+		}
+	},
+	"y7": {
+		"name": "Faith",
+		"info": "Units are 50% harder for enemy Monks to convert.",
+		"cost": {
+			"wood": "",
+			"food": "750",
+			"gold": "1000",
+			"stone": ""
+		}
+	},
+	"y8": {
+		"name": "Illumination",
+		"info": "Monks regain their faith 50% faster after a successful conversion.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "120",
+			"stone": ""
+		}
+	},
+	"y9": {
+		"name": "Block Printing",
+		"info": "Monks have +3 conversion range.",
+		"cost": {
+			"wood": "",
+			"food": "",
+			"gold": "200",
+			"stone": ""
+		}
+	},
+	"z11": {
+		"name": "Double-Bit Axe",
+		"info": "Villagers chop wood 20% faster.",
+		"cost": {
+			"wood": "50",
+			"food": "100",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"z12": {
+		"name": "Bow Saw",
+		"info": "Villagers chop wood 20% faster.",
+		"cost": {
+			"wood": "100",
+			"food": "150",
+			"gold": "",
+			"stone": ""
+		}
+	},
+	"z13": {
+		"name": "Two-Man Saw",
+		"info": "Villagers chop wood 10% faster.",
+		"cost": {
+			"wood": "200",
+			"food": "300",
+			"gold": "",
+			"stone": ""
+		}
+	}
+}

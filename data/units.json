@@ -1,0 +1,657 @@
+{
+    "a11" : {
+       "name":"Archer",
+       "info":"Ranged unit. Strong vs. units at long range. Weak vs. Skirmishers and units at close range.",
+       "cost" : { "food" : "", "wood" : "25", "gold" : "45", "stone" : ""}
+    },
+    "a12" : {
+       "name":"Crossbowman",
+       "info":"Ranged unit. Strong vs. units at long range. Weak vs. Elite Skirmishers, Mangonels, and units at close range.",
+       "cost" : { "food" : "", "wood" : "25", "gold" : "45", "stone" : ""}
+    },
+    "a13" : {
+       "name":"Arbalester",
+       "info":"Ranged unit. Strong vs. units at long range. Weak vs. Elite Skirmishers, Onagers, and units at close range.",
+       "cost" : { "food" : "", "wood" : "25", "gold" : "45", "stone" : ""}
+    },
+    "a21" : {
+       "name":"Skirmisher",
+       "info":"Ranged anti-archer unit that cannot attack at close range. Strong vs. archers. Weak vs. units at close range.",
+       "cost" : { "food" : "25", "wood" : "35", "gold" : "", "stone" : ""}
+    },
+    "a22" : {
+       "name":"Elite Skirmisher",
+       "info":"Ranged anti-archer unit that cannot attack at close range. Strong vs. archers. Weak vs. units at close range.",
+       "cost" : { "food" : "25", "wood" : "35", "gold" : "", "stone" : ""}
+    },
+    "a23" : {
+       "name":"Imperial Skirmisher",
+       "info":"Ranged anti-archer unit that cannot attack at close range. Strong vs. archers. Weak vs. units at close range. Trainable by Vietnamese and their allies.",
+       "cost" : { "food" : "25", "wood" : "35", "gold" : "", "stone" : ""}
+    },
+    "a31" : {
+       "name":"Hand Cannoneer",
+       "info":"Gunpowder unit with powerful attack, but inaccurate at long range. Strong vs. infantry. Weak vs. Elite Skirmishers and archers.",
+       "cost" : { "food" : "45", "wood" : "", "gold" : "50", "stone" : ""}
+    },
+    "a41" : {
+       "name":"Cavalry Archer",
+       "info":"Mounted archer. Strong vs. slow units at long range. Weak vs. Elite Skirmishers and units at close range.",
+       "cost" : { "food" : "", "wood" : "40", "gold" : "60", "stone" : ""}
+    },
+    "a42" : {
+       "name":"Heavy Cavalry Archer",
+       "info":"Mounted archer. Strong vs. slow units at long range. Weak vs. Elite Skirmishers and units at close range.",
+       "cost" : { "food" : "", "wood" : "40", "gold" : "60", "stone" : ""}
+    },
+    "a51" : {
+       "name":"Elephant Archer",
+       "info":"Slow and heavy mounted archer. Strong vs. archers and infantry. Weak vs. Pikemen, Skirmishers, and Camel Riders.",
+       "cost" : { "food" : "90", "wood" : "", "gold" : "70", "stone" : ""}
+    },
+    "a52" : {
+       "name":"Elite Elephant Archer",
+       "info":"Slow and heavy mounted archer. Strong vs. archers and infantry. Weak vs. Pikemen, Skirmishers, and Camel Riders.",
+       "cost" : { "food" : "90", "wood" : "", "gold" : "70", "stone" : ""}
+    },
+    "a61" : {
+       "name":"Genitour",
+       "info":"Mounted skirmisher. Strong vs. archers. Weak vs. units at close range. Trainable by Berbers and their allies.",
+       "cost" : { "food" : "40", "wood" : "35", "gold" : "", "stone" : ""}
+    },
+    "a62" : {
+       "name":"Elite Genitour",
+       "info":"Mounted skirmisher. Strong vs. archers. Weak vs. units at close range. Trainable by Berbers and their allies.",
+       "cost" : { "food" : "40", "wood" : "35", "gold" : "", "stone" : ""}
+    },
+    "b11" : {
+       "name":"Militia",
+       "info":"All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "b12" : {
+       "name":"Man-at-Arms",
+       "info":"All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "b13" : {
+       "name":"Long Swordsman",
+       "info":"All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "b14" : {
+       "name":"Two-Handed Swordsman",
+       "info":"All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "b15" : {
+       "name":"Champion",
+       "info":"All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "b21" : {
+       "name":"Spearman",
+       "info":"Anti-cavalry infantry unit. Strong vs. mounted units, especially elephants. Weak vs. archers and infantry.",
+       "cost" : { "food" : "35", "wood" : "25", "gold" : "", "stone" : ""}
+    },
+    "b22" : {
+       "name":"Pikeman",
+       "info":"Anti-cavalry infantry unit. Strong vs. mounted units, especially elephants. Weak vs. archers and infantry.",
+       "cost" : { "food" : "35", "wood" : "25", "gold" : "", "stone" : ""}
+    },
+    "b23" : {
+       "name":"Halberdier",
+       "info":"Anti-cavalry infantry unit. Strong vs. mounted units, especially elephants. Weak vs. archers and infantry.",
+       "cost" : { "food" : "35", "wood" : "25", "gold" : "", "stone" : ""}
+    },
+    "b31" : {
+       "name":"Eagle Scout",
+       "info":"Fast infantry for scouting and raiding. Resistant to conversion. Strong vs. Monks and archers. Weak vs. Long Swordsmen and cavalry.",
+       "cost" : { "food" : "20", "wood" : "", "gold" : "50", "stone" : ""}
+    },
+    "b32" : {
+       "name":"Eagle Warrior",
+       "info":"Fast infantry for scouting and raiding. Resistant to conversion. Strong vs. Monks and archers. Weak vs. Long Swordsmen and cavalry.",
+       "cost" : { "food" : "20", "wood" : "", "gold" : "50", "stone" : ""}
+    },
+    "b33" : {
+       "name":"Elite Eagle Warrior",
+       "info":"Fast infantry for scouting and raiding. Resistant to conversion. Strong vs. Monks and archers. Weak vs. Long Swordsmen and cavalry.",
+       "cost" : { "food" : "20", "wood" : "", "gold" : "50", "stone" : ""}
+    },
+    "v1" : {
+       "name":"Petard",
+       "info":"Demolition siege unit armed with explosives. Strong vs. buildings. Weak vs. other units. Self-destructs when used.",
+       "cost" : { "food" : "65", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "v2" : {
+       "name":"Trebuchet",
+       "info":"Powerful anti-building siege weapon with long range. Must be packed to move, unpacked to attack. Cannot attack enemies at close range. Strong vs. buildings. Can attack ground and destroy trees.",
+       "cost" : { "food" : "", "wood" : "200", "gold" : "200", "stone" : ""}
+    },
+    "d1" : {
+       "name":"Fishing Ship",
+       "info":"Gathers food from fish and Fish Traps. Builds Fish Traps.",
+       "cost" : { "food" : "", "wood" : "75", "gold" : "", "stone" : ""}
+    },
+    "d2" : {
+       "name":"Transport Ship",
+       "info":"Used to move units across water. Select the units you want to transport, then right-click on the Transport Ship to board them. Use the Unload button to unload units on the shore.",
+       "cost" : { "food" : "", "wood" : "125", "gold" : "", "stone" : ""}
+    },
+    "d3" : {
+       "name":"Trade Cog",
+       "info":"Trade unit used for generating gold at another player's Dock. To trade, click the Trade Cog then right-click another player's Dock. Will return with gold to your Dock.",
+       "cost" : { "food" : "", "wood" : "100", "gold" : "50", "stone" : ""}
+    },
+    "d41" : {
+       "name":"Fire Galley",
+       "info":"Warship that spews fire at close range. Strong vs. Galleys. Weak vs. Demolition Rafts.",
+       "cost" : { "food" : "", "wood" : "75", "gold" : "45", "stone" : ""}
+    },
+    "d42" : {
+       "name":"Fire Ship",
+       "info":"Warship that spews fire at close range. Strong vs. Galleys. Weak vs. Demolition Rafts.",
+       "cost" : { "food" : "", "wood" : "75", "gold" : "45", "stone" : ""}
+    },
+    "d43" : {
+       "name":"Fast Fire Ship",
+       "info":"Warship that spews fire at close range. Strong vs. Galleys. Weak vs. Demolition Rafts.",
+       "cost" : { "food" : "", "wood" : "75", "gold" : "45", "stone" : ""}
+    },
+    "d51" : {
+       "name":"Demolition Raft",
+       "info":"Demolition ship armed with explosives. Strong vs. Fire Galleys and buildings. Self-destructs when used.",
+       "cost" : { "food" : "", "wood" : "70", "gold" : "50", "stone" : ""}
+    },
+    "d52" : {
+       "name":"Demolition Ship",
+       "info":"Demolition ship armed with explosives. Strong vs. Fire Galleys and buildings. Self-destructs when used.",
+       "cost" : { "food" : "", "wood" : "70", "gold" : "50", "stone" : ""}
+    },
+    "d53" : {
+       "name":"Heavy Demolition Ship",
+       "info":"Demolition ship armed with explosives. Strong vs. Fire Galleys and buildings. Self-destructs when used.",
+       "cost" : { "food" : "", "wood" : "70", "gold" : "50", "stone" : ""}
+    },
+    "d61" : {
+       "name":"Galley",
+       "info":"All-purpose warship with ranged attack. Weak vs. Fire Galleys.",
+       "cost" : { "food" : "", "wood" : "90", "gold" : "30", "stone" : ""}
+    },
+    "d62" : {
+       "name":"War Galley",
+       "info":"All-purpose warship with ranged attack. Weak vs. Fire Galleys.",
+       "cost" : { "food" : "", "wood" : "90", "gold" : "30", "stone" : ""}
+    },
+    "d63" : {
+       "name":"Galleon",
+       "info":"All-purpose warship with ranged attack. Weak vs. Fire Galleys.",
+       "cost" : { "food" : "", "wood" : "90", "gold" : "30", "stone" : ""}
+    },
+    "d71" : {
+       "name":"Cannon Galleon",
+       "info":"Anti-building siege warship with long range, but cannot attack enemies at close range. Strong vs. buildings. Weak vs. other units.",
+       "cost" : { "food" : "", "wood" : "200", "gold" : "150", "stone" : ""}
+    },
+    "d72" : {
+       "name":"Elite Cannon Galleon",
+       "info":"Anti-building siege warship with long range, but cannot attack enemies at close range. Strong vs. buildings. Weak vs. other units.",
+       "cost" : { "food" : "", "wood" : "200", "gold" : "150", "stone" : ""}
+    },
+    "k11" : {
+       "name":"Battering Ram",
+       "info":"Anti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack.",
+       "cost" : { "food" : "", "wood" : "160", "gold" : "75", "stone" : ""}
+    },
+    "k12" : {
+       "name":"Capped Ram",
+       "info":"Anti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack.",
+       "cost" : { "food" : "", "wood" : "160", "gold" : "75", "stone" : ""}
+    },
+    "k13" : {
+       "name":"Siege Ram",
+       "info":"Anti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack.",
+       "cost" : { "food" : "", "wood" : "160", "gold" : "75", "stone" : ""}
+    },
+    "k21" : {
+       "name":"Mangonel",
+       "info":"Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground.",
+       "cost" : { "food" : "", "wood" : "160", "gold" : "135", "stone" : ""}
+    },
+    "k22" : {
+       "name":"Onager",
+       "info":"Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground.",
+       "cost" : { "food" : "", "wood" : "160", "gold" : "135", "stone" : ""}
+    },
+    "k23" : {
+       "name":"Siege Onager",
+       "info":"Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground.",
+       "cost" : { "food" : "", "wood" : "160", "gold" : "135", "stone" : ""}
+    },
+    "k31" : {
+       "name":"Scorpion",
+       "info":"Anti-unit siege weapon. Fires bolts that pierce multiple units. Strong vs. large groups of units. Weak vs. cavalry and siege weapons.",
+       "cost" : { "food" : "", "wood" : "75", "gold" : "75", "stone" : ""}
+    },
+    "k32" : {
+       "name":"Heavy Scorpion",
+       "info":"Anti-unit siege weapon. Fires bolts that pierce multiple units. Strong vs. large groups of units. Weak vs. cavalry and siege weapons.",
+       "cost" : { "food" : "", "wood" : "75", "gold" : "75", "stone" : ""}
+    },
+    "k41" : {
+       "name":"Bombard Cannon",
+       "info":"Siege weapon with long range. Strong vs. buildings and siege weapons. Weak vs. melee units.",
+       "cost" : { "food" : "", "wood" : "225", "gold" : "225", "stone" : ""}
+    },
+    "k42" : {
+       "name":"Houfnice",
+       "info":"Bohemian unique siege unit. Siege weapon with long range. Strong vs. buildings and siege weapons. Weak vs. melee units.",
+       "cost" : { "food" : "", "wood" : "225", "gold" : "225", "stone" : ""}
+    },
+    "k51" : {
+       "name":"Battle Elephant",
+       "info":"Slow and heavy cavalry. Strong vs. cavalry, infantry, and archers. Weak vs. Monks and Pikemen.",
+       "cost" : { "food" : "120", "wood" : "", "gold" : "70", "stone" : ""}
+    },
+    "k52" : {
+       "name":"Elite Battle Elephant",
+       "info":"Slow and heavy cavalry. Strong vs. cavalry, infantry, and archers. Weak vs. Monks and Pikemen.",
+       "cost" : { "food" : "120", "wood" : "", "gold" : "70", "stone" : ""}
+    },
+    "k61" : {
+       "name":"Siege Tower",
+       "info":"Quick land transport used to unload units over enemy walls. Resistant to archer attack. Cannot be used by mounted units.",
+       "cost" : { "food" : "", "wood" : "200", "gold" : "160", "stone" : ""}
+    },
+    "l11" : {
+       "name":"Scout Cavalry",
+       "info":"Fast cavalry for scouting and raiding. Resistant to conversion. Strong vs. Monks. Weak vs. Pikemen and Camel Riders.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "", "stone" : ""}
+    },
+    "l12" : {
+       "name":"Light Cavalry",
+       "info":"Fast cavalry for scouting and raiding. Resistant to conversion. Strong vs. Monks. Weak vs. Pikemen and Camel Riders.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "", "stone" : ""}
+    },
+    "l13" : {
+       "name":"Hussar",
+       "info":"Fast cavalry for scouting and raiding. Resistant to conversion. Strong vs. Monks. Weak vs. Pikemen and Camel Riders.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "", "stone" : ""}
+    },
+    "l14" : {
+       "name":"Winged Hussar",
+       "info":"Unique to Poles and Lithuanians. Fast cavalry for scouting and raiding. Resistant to conversion. Strong vs. Monks and gunpowder units. Weak vs. Pikemen and Camel Riders.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "", "stone" : ""}
+    },
+    "l21" : {
+       "name":"Knight",
+       "info":"Powerful all-purpose cavalry. Strong vs. infantry and archers. Weak vs. Pikemen, Camel Riders, and Monks.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "75", "stone" : ""}
+    },
+    "l22" : {
+       "name":"Cavalier",
+       "info":"Powerful all-purpose cavalry. Strong vs. infantry and archers. Weak vs. Pikemen, Camel Riders, and Monks.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "75", "stone" : ""}
+    },
+    "l23" : {
+       "name":"Paladin",
+       "info":"Powerful all-purpose cavalry. Strong vs. infantry and archers. Weak vs. Pikemen, Camel Riders, and Monks.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "75", "stone" : ""}
+    },
+    "l31" : {
+       "name":"Camel Scout",
+       "info":"Gurjara unique scout unit. Strong vs. cavalry. Weak vs. Pikemen, Monks, and archers.",
+       "cost" : { "food" : "55", "wood" : "", "gold" : "60", "stone" : ""}
+    },
+    "l32" : {
+       "name":"Camel Rider",
+       "info":"Fast anti-cavalry unit. Strong vs. cavalry. Weak vs. Spearmen, Monks, and archers.",
+       "cost" : { "food" : "55", "wood" : "", "gold" : "60", "stone" : ""}
+    },
+    "l33" : {
+       "name":"Heavy Camel Rider",
+       "info":"Fast anti-cavalry unit. Strong vs. cavalry. Weak vs. Spearmen, Monks, and archers.",
+       "cost" : { "food" : "55", "wood" : "", "gold" : "60", "stone" : ""}
+    },
+    "l34" : {
+       "name":"Imperial Camel Rider",
+       "info":"Indian unique anti-cavalry unit. Fast-moving. Strong vs. cavalry. Weak vs. Pikemen, Monks, and archers.",
+       "cost" : { "food" : "55", "wood" : "", "gold" : "60", "stone" : ""}
+    },
+    "l41" : {
+       "name":"Battle Elephant",
+       "info":"Slow and heavy cavalry. Strong vs. cavalry, infantry, and archers. Weak vs. Monks and Pikemen.",
+       "cost" : { "food" : "120", "wood" : "", "gold" : "70", "stone" : ""}
+    },
+    "l42" : {
+       "name":"Elite Battle Elephant",
+       "info":"Slow and heavy cavalry. Strong vs. cavalry, infantry, and archers. Weak vs. Monks and Pikemen.",
+       "cost" : { "food" : "120", "wood" : "", "gold" : "70", "stone" : ""}
+    },
+    "l51" : {
+       "name":"Steppe Lancer",
+       "info":"Light cavalry unit with increased attack range. Strong in groups. Weak vs. Camel Riders and archers.",
+       "cost" : { "food" : "70", "wood" : "", "gold" : "40", "stone" : ""}
+    },
+    "l52" : {
+       "name":"Elite Steppe Lancer",
+       "info":"Light cavalry unit with increased attack range. Strong in groups. Weak vs. Camel Riders and archers.",
+       "cost" : { "food" : "70", "wood" : "", "gold" : "40", "stone" : ""}
+    },
+    "m1" : {
+       "name":"Trade Cart",
+       "info":"Trade unit used for generating gold at another player's Market. To trade, click the Trade Cart then right-click another player's Market. Will return with gold to your Market.",
+       "cost" : { "food" : "", "wood" : "100", "gold" : "50", "stone" : ""}
+    },
+    "h1" : {
+       "name":"Villager",
+       "info":"Gathers resources. Builds and repairs buildings. Also repairs ships and siege weapons.",
+       "cost" : { "food" : "50", "wood" : "", "gold" : "", "stone" : ""}
+    },
+    "ua1" : {
+       "name":"Slinger ",
+       "info":"Inca unique unit. Ranged anti-infantry unit that cannot attack at close range. Strong vs. infantry. Weak vs. archers and cavalry.",
+       "cost" : { "food" : "30", "wood" : "", "gold" : "40", "stone" : ""}
+    },
+    "ub1" : {
+       "name":"Condottiero",
+       "info":"Fast anti-gunpowder infantry. Strong vs. gunpowder units. Weak vs. cavalry and archers. Trainable by Italians and their allies.",
+       "cost" : { "food" : "50", "wood" : "", "gold" : "35", "stone" : ""}
+    },
+    "uc1" : {
+       "name":"Flaming Camel",
+       "info":"Incendiary camel loaded with flammable hay and brush. Strong vs. mounted units, especially elephants. Weak vs. archers and infantry. Self-destructs when used.",
+       "cost" : { "food" : "75", "wood" : "", "gold" : "30", "stone" : ""}
+    },
+    "ud11" : {
+       "name":"Longboat",
+       "info":"Viking unique ship that fires multiple arrows. Strong vs. War Galleys, land units, and buildings.",
+       "cost" : { "food" : "", "wood" : "100", "gold" : "50", "stone" : ""}
+    },
+    "ud12" : {
+       "name":"Elite Longboat",
+       "info":"Viking unique ship that fires multiple arrows. Strong vs. War Galleys, land units, and buildings.",
+       "cost" : { "food" : "", "wood" : "100", "gold" : "50", "stone" : ""}
+    },
+    "ud21" : {
+       "name":"Caravel",
+       "info":"Portuguese unique ship that fires bolts that pierce multiple units. Strong vs. large groups of ships. Weak vs. Fire Ships.",
+       "cost" : { "food" : "", "wood" : "90", "gold" : "43", "stone" : ""}
+    },
+    "ud22" : {
+       "name":"Elite Caravel",
+       "info":"Portuguese unique ship that fires bolts that pierce multiple units. Strong vs. large groups of ships. Weak vs. Fire Ships.",
+       "cost" : { "food" : "", "wood" : "90", "gold" : "43", "stone" : ""}
+    },
+    "ud31" : {
+       "name":"Turtle Ship",
+       "info":"Korean unique ship. Slow and ironclad. Strong vs. warships and buildings.",
+       "cost" : { "food" : "", "wood" : "190", "gold" : "180", "stone" : ""}
+    },
+    "ud32" : {
+       "name":"Elite Turtle Ship",
+       "info":"Korean unique ship. Slow and ironclad. Strong vs. warships and buildings.",
+       "cost" : { "food" : "", "wood" : "190", "gold" : "180", "stone" : ""}
+    },
+    "ud41" : {
+       "name":"Thirisadai",
+       "info":"Dravidian unique warship that fires multiple projectiles. Strong vs. warships.",
+       "cost" : { "food" : "", "wood" : "180", "gold" : "60", "stone" : ""}
+    },
+    "ul1" : {
+       "name":"Xolotl Warrior",
+       "info":"Mesoamerican cavalry unit. Strong vs. infantry and siege. Weak vs. Pikemen and Camel Riders.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "75", "stone" : ""}
+    },
+    "ul21" : {
+       "name":"Shrivamsha Rider",
+       "info":"Gurjara unique light cavalry unit which can dodge projectiles. Strong vs. archers. Weak vs. Pikemen and Camel Riders.",
+       "cost" : { "food" : "70", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "ul22" : {
+       "name":"Elite Shrivamsha Rider",
+       "info":"Gurjara unique light cavalry unit which can dodge projectiles. Strong vs. archers. Weak vs. Pikemen and Camel Riders.",
+       "cost" : { "food" : "70", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "uh1" : {
+       "name":"Flemish Militia",
+       "info":"Burgundian unique infantry unit. Strong vs. cavalry. Weak vs. archers.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "25", "stone" : ""}
+    },
+    "uy1" : {
+        "name":"Missionary",
+        "info":"Spanish unique mounted monk. Converts enemy units and heals friendly units. Faster than Monk but with less sight and range. Strong vs. slow, non-ranged units. Weak vs. Light Cavalry and ranged units. Cannot collect Relics.",
+        "cost" : { "food" : "", "wood" : "", "gold" : "100", "stone" : ""}
+     },
+    "y11" : {
+       "name":"Monk",
+       "info":"Converts enemy units to your civilization. Heals friendly units (except ships and siege weapons). Strong vs. slow and non-ranged units. Weak vs. Light Cavalry and ranged units. Can collect Relics and bring them to Monasteries.",
+       "cost" : { "food" : "", "wood" : "", "gold" : "100", "stone" : ""}
+    },
+    "y12" : {
+       "name":"Monk",
+       "info":"Converts enemy units to your civilization. Heals friendly units (except ships and siege weapons). Strong vs. slow and non-ranged units. Weak vs. Light Cavalry and ranged units. Can collect Relics and bring them to Monasteries.",
+       "cost" : { "food" : "", "wood" : "", "gold" : "100", "stone" : ""}
+    },
+    "y13" : {
+       "name":"Monk",
+       "info":"Converts enemy units to your civilization. Heals friendly units (except ships and siege weapons). Strong vs. slow and non-ranged units. Weak vs. Light Cavalry and ranged units. Can collect Relics and bring them to Monasteries.",
+       "cost" : { "food" : "", "wood" : "", "gold" : "100", "stone" : ""}
+    },
+    "y14" : {
+       "name":"Monk",
+       "info":"Converts enemy units to your civilization. Heals friendly units (except ships and siege weapons). Strong vs. slow and non-ranged units. Weak vs. Light Cavalry and ranged units. Can collect Relics and bring them to Monasteries.",
+       "cost" : { "food" : "", "wood" : "", "gold" : "100", "stone" : ""}
+    },
+    "zaztecs" : {
+       "name":"Jaguar Warrior",
+       "info":"Aztec unique infantry unit. Strong vs. infantry. Weak vs. cavalry and archers.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "30", "stone" : ""}
+    },
+    "zbengalis" : {
+       "name":"Ratha",
+       "info":"Bengali unique chariot that can switch between melee and ranged attacks. Strong vs. infantry. Weak vs. Skirmishers and Camel Riders.",
+       "cost" : { "food" : "", "wood" : "60", "gold" : "60", "stone" : ""}
+    },
+    "zberbers" : {
+       "name":"Camel Archer",
+       "info":"Berber unique mounted archer. Strong vs. Cavalry Archers and infantry. Weak vs. Pikemen, Skirmishers, and Camel Riders.",
+       "cost" : { "food" : "", "wood" : "50", "gold" : "60", "stone" : ""}
+    },
+    "zbohemians" : {
+       "name":"Hussite Wagon",
+       "info":"Bohemian unique siege unit. Units behind it receive 50% less damage from incoming projectiles. Strong vs. archers. Weak vs. siege weapons.",
+       "cost" : { "food" : "", "wood" : "110", "gold" : "70", "stone" : ""}
+    },
+    "zbritons" : {
+       "name":"Longbowman",
+       "info":"British unique archer with very long range. Strong vs. infantry. Weak vs. cavalry and Skirmishers.",
+       "cost" : { "food" : "", "wood" : "35", "gold" : "40", "stone" : ""}
+    },
+    "zbulgarians" : {
+       "name":"Konnik",
+       "info":"Bulgarian unique cavalry unit that fights on as infantry when felled. Strong vs. infantry and archers. Weak vs. Camel Riders and Monks.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "70", "stone" : ""}
+    },
+    "zburgundians" : {
+       "name":"Coustillier",
+       "info":"Burgundian unique cavalry unit which can charge its attack. Strong vs. infantry and archers. Weak vs. Camel Riders and Monks.",
+       "cost" : { "food" : "55", "wood" : "", "gold" : "55", "stone" : ""}
+    },
+    "zburmese" : {
+       "name":"Arambai",
+       "info":"Burmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers.",
+       "cost" : { "food" : "", "wood" : "75", "gold" : "60", "stone" : ""}
+    },
+    "zbyzantines" : {
+       "name":"Cataphract",
+       "info":"Byzantine unique cavalry unit. Strong vs. infantry. Weak vs. archers.",
+       "cost" : { "food" : "70", "wood" : "", "gold" : "75", "stone" : ""}
+    },
+    "zcelts" : {
+       "name":"Woad Raider",
+       "info":"Celtic unique infantry unit. Fast-moving. Strong vs. infantry and siege weapons. Weak vs. archers and cavalry.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "25", "stone" : ""}
+    },
+    "zchinese" : {
+       "name":"Chu Ko Nu",
+       "info":"Chinese unique archer with rapid-fire attack. Strong vs. infantry. Weak vs. archers and siege weapons.",
+       "cost" : { "food" : "", "wood" : "40", "gold" : "35", "stone" : ""}
+    },
+    "zcumans" : {
+       "name":"Kipchak",
+       "info":"Cuman unique cavalry archer with rapid-fire attack. Strong vs. infantry. Weak vs. Skirmishers.",
+       "cost" : { "food" : "", "wood" : "60", "gold" : "35", "stone" : ""}
+    },
+    "zdravadians" : {
+       "name":"Urumi Swordsman",
+       "info":"Dravidian unique infantry unit which can charge its attack. Strong vs. buildings and infantry. Weak vs. archers at long range.",
+       "cost" : { "food" : "65", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "zethiopians" : {
+       "name":"Shotel Warrior",
+       "info":"Ethiopian unique infantry with high attack and fast training speed. Fast-moving. Strong vs. infantry. Weak vs. archers.",
+       "cost" : { "food" : "50", "wood" : "", "gold" : "30", "stone" : ""}
+    },
+    "zfranks" : {
+       "name":"Throwing Axeman",
+       "info":"Frankish unique infantry unit with ranged melee attack. Strong vs. infantry. Weak vs. archers and siege weapons.",
+       "cost" : { "food" : "55", "wood" : "", "gold" : "25", "stone" : ""}
+    },
+    "zgoths" : {
+       "name":"Huskarl",
+       "info":"Gothic unique infantry unit with high pierce armor. Strong vs. archers and buildings. Weak vs. cavalry.",
+       "cost" : { "food" : "80", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "zgurjaras" : {
+       "name":"Chakram Thrower",
+       "info":"Gurjara unique infantry unit with ranged melee attack. Strong vs. infantry. Weak vs. archers and siege weapons.",
+       "cost" : { "food" : "65", "wood" : "", "gold" : "30", "stone" : ""}
+    },
+    "zhindustanis" : {
+       "name":"Ghulam",
+       "info":"Hindustani unique infantry unit that thrusts its spear through multiple targets. Strong vs. archers. Weak vs. cavalry.",
+       "cost" : { "food" : "30", "wood" : "", "gold" : "45", "stone" : ""}
+    },
+    "zhuns" : {
+       "name":"Tarkan",
+       "info":"Hunnic unique cavalry unit with attack bonus vs. buildings. Strong vs. buildings and archers. Weak vs. Pikemen and Camel Riders.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "60", "stone" : ""}
+    },
+    "zincas" : {
+       "name":"Kamayuk",
+       "info":"Inca unique spearman with increased attack range. Strong vs. cavalry and infantry. Weak vs. archers.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "30", "stone" : ""}
+    },
+    "zitalians" : {
+       "name":"Genoese Crossbowman",
+       "info":"Italian unique archer. Strong vs. cavalry and infantry. Weak vs. archers and siege weapons.",
+       "cost" : { "food" : "", "wood" : "45", "gold" : "40", "stone" : ""}
+    },
+    "zjapanese" : {
+       "name":"Samurai",
+       "info":"Japanese unique infantry unit with fast attack. Strong vs. unique units and infantry. Weak vs. archers.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "30", "stone" : ""}
+    },
+    "zkhmer" : {
+       "name":"Ballista Elephant",
+       "info":"Khmer unique elephant equipped with a Scorpion. Can destroy trees. Strong vs. infantry and archers. Weak vs. cavalry and siege weapons.",
+       "cost" : { "food" : "100", "wood" : "", "gold" : "80", "stone" : ""}
+    },
+    "zkoreans" : {
+       "name":"War Wagon",
+       "info":"Korean unique cavalry archer unit. Strong vs. infantry and archers. Weak vs. Pikemen, Skirmishers, and Camel Riders.",
+       "cost" : { "food" : "", "wood" : "125", "gold" : "60", "stone" : ""}
+    },
+    "zlithunanians" : {
+       "name":"Leitis",
+       "info":"Lithuanian unique cavalry unit with attack that ignores armor. Strong vs. armored units.",
+       "cost" : { "food" : "70", "wood" : "", "gold" : "50", "stone" : ""}
+    },
+    "zmagyars" : {
+       "name":"Magyar Huszar",
+       "info":"Magyar unique light cavalry unit. Strong vs. siege weapons. Weak vs. Pikemen and Camel Riders.",
+       "cost" : { "food" : "80", "wood" : "", "gold" : "10", "stone" : ""}
+    },
+    "zmalay" : {
+       "name":"Karambit Warrior",
+       "info":"Malay unique infantry unit. Cheap and only takes half a population unit. Strong in high numbers. Weak vs. cavalry and archers.",
+       "cost" : { "food" : "25", "wood" : "", "gold" : "15", "stone" : ""}
+    },
+    "zmalians" : {
+       "name":"Gbeto",
+       "info":"Malian unique infantry unit with ranged melee attack. Fast-moving. Strong vs. infantry. Weak vs. archers and siege weapons.",
+       "cost" : { "food" : "50", "wood" : "", "gold" : "40", "stone" : ""}
+    },
+    "zmayans" : {
+       "name":"Plumed Archer",
+       "info":"Mayan unique fast-moving archer. Strong vs. archers and infantry. Weak vs. cavalry.",
+       "cost" : { "food" : "", "wood" : "55", "gold" : "55", "stone" : ""}
+    },
+    "zmongols" : {
+       "name":"Mangudai",
+       "info":"Mongol unique cavalry archer with fast-firing attack. Strong vs. siege weapons and infantry. Weak vs. Skirmishers, Pikemen, and Camel Riders.",
+       "cost" : { "food" : "", "wood" : "55", "gold" : "65", "stone" : ""}
+    },
+    "zpersians" : {
+       "name":"War Elephant",
+       "info":"Persian unique unit. Slow and powerful cavalry. Strong vs. buildings and units at close range. Weak vs. Monks.",
+       "cost" : { "food" : "170", "wood" : "", "gold" : "85", "stone" : ""}
+    },
+    "zpoles" : {
+       "name":"Obuch",
+       "info":"Polish unique infantry unit which can damage the armor of units it is fighting. Strong vs. buildings and infantry. Weak vs. archers at long range.",
+       "cost" : { "food" : "55", "wood" : "", "gold" : "20", "stone" : ""}
+    },
+    "zportugese" : {
+       "name":"Organ Gun",
+       "info":"Portuguese unique siege unit. Fires a volley of bullets. Strong vs. large groups of units. Weak vs. cavalry and Mangonels.",
+       "cost" : { "food" : "", "wood" : "80", "gold" : "70", "stone" : ""}
+    },
+    "zsaracens" : {
+       "name":"Mameluke",
+       "info":"Saracen unique camel unit with ranged melee attack. Strong vs. cavalry. Weak vs. archers and Pikemen.",
+       "cost" : { "food" : "55", "wood" : "", "gold" : "85", "stone" : ""}
+    },
+    "zsicilians" : {
+       "name":"Serjeant",
+       "info":"Sicilian unique infantry unit which can construct Donjons.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "35", "stone" : ""}
+    },
+    "zslavs" : {
+       "name":"Boyar",
+       "info":"Slavic unique cavalry unit. Resistant to melee attack.",
+       "cost" : { "food" : "50", "wood" : "", "gold" : "80", "stone" : ""}
+    },
+    "zspanish" : {
+       "name":"Conquistador",
+       "info":"Spanish unique mounted hand cannoneer. Strong vs. infantry. Weak vs. Pikemen, Skirmishers, and Monks.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "70", "stone" : ""}
+    },
+    "ztatars" : {
+       "name":"Keshik",
+       "info":"Tatar unique cavalry unit that generates gold when fighting other units.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "40", "stone" : ""}
+    },
+    "zteutons" : {
+       "name":"Teutonic Knight",
+       "info":"Teutonic unique infantry unit. Slow and powerful. Strong vs. melee units. Weak vs. archers and Scorpions.",
+       "cost" : { "food" : "85", "wood" : "", "gold" : "40", "stone" : ""}
+    },
+    "zturks" : {
+       "name":"Janissary",
+       "info":"Turkish unique hand cannoneer with longer range and no minimum range. Strong vs. infantry. Weak vs. archers.",
+       "cost" : { "food" : "60", "wood" : "", "gold" : "55", "stone" : ""}
+    },
+    "zvietnamese" : {
+       "name":"Rattan Archer",
+       "info":"Vietnamese unique archer with high pierce armor. Strong vs. archers and infantry. Weak vs. cavalry and Skirmishers.",
+       "cost" : { "food" : "", "wood" : "50", "gold" : "45", "stone" : ""}
+    },
+    "zvikings" : {
+       "name":"Berserk",
+       "info":"Viking unique infantry unit that slowly heals itself. Strong vs. infantry and siege weapons. Weak vs. archers.",
+       "cost" : { "food" : "65", "wood" : "", "gold" : "25", "stone" : ""}
+    }
+}
